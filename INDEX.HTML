@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>DASHBOARD</title>
+    <!-- MATERIAL ICON FROM GOOGLE -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp"
+      rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <div class="container">
+      <aside class="">
+        <div class="top">
+          <div class="logo">
+            <img src="IMAGE/iMagnum.png" alt="">
+          </div>
+        <div class="close" id = "close-btn">
+          <span class="material-icons-sharp">close</span>
+        </div>
+      </div>
+
+      <div class="sidebar">
+
+        <a href="#" class="active">
+          <span class="material-icons-sharp">dashboard</span>
+          <h3>DASHBOARD</h3>
+        </a>
+        <a href="#">
+          <span class="material-icons-sharp">military_tech</span>
+          <h3>CLIENT1</h3>
+        </a>
+
+        <a href="#">
+          <span class="material-icons-sharp">tornado</span>
+          <h3>CLIENT2</h3>
+        </a>
+
+        <a href="#">
+          <span class="material-icons-sharp">format_bold</span>
+          <h3>CLIENT3</h3>
+        </a>
+
+        <a href="#">
+          <span class="material-icons-sharp">support_agent</span>
+          <h3>SUPPORT</h3>
+          <span class="message-count">26</span>
+        </a>
+        <a href="#">
+          <span class="material-icons-sharp">logout</span>
+          <h3>LOGOUT</h3>
+        </a>
+
+      </div>
+      </aside>
+<!-- END OF SIDE BAR -->
+
+      <main>
+        <h1>DASHBOARD</h1>
+
+        <div class="date">
+          <input type="date">
+        </div>
+          <div class="insights">
+            <div class="OVERALL_TARGET">
+              <span class="material-icons-sharp">monetization_on</span>
+              <div class="middle">
+                <div class="left">
+                  <h3>OVERALL TARGET</h3>
+                  <h1>$1,52,000</h1>
+                </div>
+                </div>
+              </div>
+
+        <!-- END OF OVER ALL TARGET -->
+        <div class="MTD_TARGET">
+          <span class="material-icons-sharp">monetization_on</span>
+          <div class="middle">
+            <div class="left">
+              <h3>MTD TARGET</h3>
+              <h1>$98,000</h1>
+            </div>
+            </div>
+          </div>
+
+    <!-- END OF MTD TARGET -->
+    <div class="MTD_ACHIEVED">
+      <span class="material-icons-sharp">stacked_line_chart</span>
+      <div class="middle">
+        <div class="left">
+          <h3 class="MTDA">MTD ACHIEVED</h3>
+          <h1>$97,500</h1>
+        </div>
+
+        <!-- <div class="progress">
+          <svg>
+            <circle cx='38' cy='38' r='36'></circle>
+          </svg>
+          <div class="number">
+            <p>97%</p>
+          </div>
+        </div> -->
+  </div>
+  <small class="text-muted">Last week</small>
+</div>
+<!-- END OF MTD ACHIEVED -->
+<div class="OVERALL_ACHIEVED">
+  <span class="material-icons-sharp">stacked_line_chart</span>
+  <div class="middle">
+    <div class="left">
+      <h3>EXCESS/DEFECT</h3>
+      <h1 class="loss">-$500</h1>
+    </div>
+    <!-- <div class="progress">
+      <svg>
+        <circle cx='38' cy='38' r='36'></circle>
+      </svg>
+      <div class="number">
+        <p>62%</p>
+      </div>
+    </div> -->
+
+</div>
+<small class="text-muted">Last week</small>
+</div>
+<!-- END OF OVERALL ACHIEVED -->
+<!-- end of top bar -->
+        </div>
+        <div class="CLIENT_PERFORMANCE">
+          <h2>CLIENT PERFORMANCE</h2>
+          <table>
+            <thead>
+              <tr>
+                <th>CLIENT NAME</th>
+                <th>OVERALL TARGET</th>
+                <th>MTD TARGET</th>
+                <th>MTD ACHIEVED</th>
+                <th>EXCESS/DEFECT</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>CLIENT1</td>
+                <td>$50,000</td>
+                <td>$32,000</td>
+                <td>$33,000</td>
+                <td class="profit">$1,000</td>
+              </tr>
+              <tr>
+                <td>CLIENT2</td>
+                <td>$25,000</td>
+                <td>$18,000</td>
+                <td>$16,500</td>
+                <td class="loss">-$1,500</td>
+              </tr>
+              <tr>
+                <td>CLIENT3</td>
+                <td>$25,000</td>
+                <td>$14,000</td>
+                <td>$13,500</td>
+                <td class="loss" >-$500</td>
+              </tr>
+              <tr>
+                <td>CLIENT4</td>
+                <td>$27,000</td>
+                <td>$20,000</td>
+                <td>$20,000</td>
+                <td class="yellow">$-</td>
+              </tr>
+              <tr>
+                <td>CLIENT5</td>
+                <td>$25,000</td>
+                <td>$14,000</td>
+                <td>$14,500</td>
+                <td class="profit" >$500</td>
+              </tr>
+              <tr class="bold">
+                <td>TOTAL</td>
+                <td>$1,52,000</td>
+                <td>$98,000</td>
+                <td>$97,500</td>
+                <td class="loss" >-$500</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+      </main>
+    </div>
+  </body>
+</html>
